@@ -273,6 +273,10 @@ return [
             'className' => Connection::class,
             'driver' => Mysql::class,
             'persistent' => false,
+            'host' => 'localhost',
+            'username' => 'root',
+            'password' => '',
+            'database' => 'cakephp',
             'timezone' => 'UTC',
 
             /**
